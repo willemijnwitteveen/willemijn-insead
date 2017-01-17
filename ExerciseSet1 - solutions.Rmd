@@ -59,12 +59,9 @@ For more information on downloading finance data from the internet as well as on
 
 1. Can you find some interesting finance related R package or github repository? 
 **Your Answers here:**
-<br>
-<br>
-
-<hr>
-<hr>
-
+-quantmod package - financial modelling package
+- https://github.com/R-Finance - Github repository where you can find many usefull codes to perform finance calculations
+- 
 ### Part I: Statistics of S&P Daily Returns
 
 We have `r nrow(StockReturns)` days of data, starting from `r rownames(StockReturns)[1]` until `r tail(rownames(StockReturns),1)`.  Here are some basic statistics about the S&P returns:
